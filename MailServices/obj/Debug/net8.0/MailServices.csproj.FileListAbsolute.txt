@@ -1,0 +1,17 @@
+E:\Project\DotNetConsoleApp\MailServices\bin\Debug\net8.0\MailServices.deps.json
+E:\Project\DotNetConsoleApp\MailServices\bin\Debug\net8.0\MailServices.dll
+E:\Project\DotNetConsoleApp\MailServices\bin\Debug\net8.0\MailServices.pdb
+E:\Project\DotNetConsoleApp\MailServices\bin\Debug\net8.0\ConfigService.dll
+E:\Project\DotNetConsoleApp\MailServices\bin\Debug\net8.0\LogServices.dll
+E:\Project\DotNetConsoleApp\MailServices\bin\Debug\net8.0\ConfigService.pdb
+E:\Project\DotNetConsoleApp\MailServices\bin\Debug\net8.0\LogServices.pdb
+E:\Project\DotNetConsoleApp\MailServices\obj\Debug\net8.0\MailServices.csproj.AssemblyReference.cache
+E:\Project\DotNetConsoleApp\MailServices\obj\Debug\net8.0\MailServices.GeneratedMSBuildEditorConfig.editorconfig
+E:\Project\DotNetConsoleApp\MailServices\obj\Debug\net8.0\MailServices.AssemblyInfoInputs.cache
+E:\Project\DotNetConsoleApp\MailServices\obj\Debug\net8.0\MailServices.AssemblyInfo.cs
+E:\Project\DotNetConsoleApp\MailServices\obj\Debug\net8.0\MailServices.csproj.CoreCompileInputs.cache
+E:\Project\DotNetConsoleApp\MailServices\obj\Debug\net8.0\MailServ.1C3854F3.Up2Date
+E:\Project\DotNetConsoleApp\MailServices\obj\Debug\net8.0\MailServices.dll
+E:\Project\DotNetConsoleApp\MailServices\obj\Debug\net8.0\refint\MailServices.dll
+E:\Project\DotNetConsoleApp\MailServices\obj\Debug\net8.0\MailServices.pdb
+E:\Project\DotNetConsoleApp\MailServices\obj\Debug\net8.0\ref\MailServices.dll
