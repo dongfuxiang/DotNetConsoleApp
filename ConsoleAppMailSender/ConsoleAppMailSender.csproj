@@ -17,4 +17,10 @@
     <ProjectReference Include="..\MailServices\MailServices.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="mail.ini">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

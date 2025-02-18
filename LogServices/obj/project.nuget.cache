@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "F6NOPY/aeek=",
+  "dgSpecHash": "w4r55T0YheE=",
   "success": true,
-  "projectFilePath": "E:\\Project\\DotNetConsoleApp\\LogServices\\LogServices.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "E:\\Project\\DotNetConsoleApp\\Code\\DotNetConsoleApp\\LogServices\\LogServices.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\14269\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.2\\microsoft.extensions.dependencyinjection.9.0.2.nupkg.sha512",
+    "C:\\Users\\14269\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.2\\microsoft.extensions.dependencyinjection.abstractions.9.0.2.nupkg.sha512"
+  ],
   "logs": []
 }

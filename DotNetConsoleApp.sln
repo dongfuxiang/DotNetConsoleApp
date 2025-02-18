@@ -20,7 +20,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppIOC", "ConsoleApp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppDI", "ConsoleAppDI\ConsoleAppDI.csproj", "{3B6F9AF4-AE97-42CA-9067-49E1B94492E8}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DI综合案例", "DI综合案例", "{488D6559-A1C0-4CBD-B1DE-DE8C5E7A5B3A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DI综合案例-1", "DI综合案例-1", "{488D6559-A1C0-4CBD-B1DE-DE8C5E7A5B3A}"
 	ProjectSection(SolutionItems) = preProject
 		ConsoleAppDI\DI综合案例\ReadMe.txt = ConsoleAppDI\DI综合案例\ReadMe.txt
 	EndProjectSection

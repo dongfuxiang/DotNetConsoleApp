@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lM9zYM15/bE=",
+  "dgSpecHash": "R9flE03Un04=",
   "success": true,
-  "projectFilePath": "E:\\Project\\DotNetConsoleApp\\ConsoleAppMailSender\\ConsoleAppMailSender.csproj",
+  "projectFilePath": "E:\\Project\\DotNetConsoleApp\\Code\\DotNetConsoleApp\\ConsoleAppMailSender\\ConsoleAppMailSender.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\14269\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.2\\microsoft.extensions.dependencyinjection.9.0.2.nupkg.sha512",
     "C:\\Users\\14269\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.2\\microsoft.extensions.dependencyinjection.abstractions.9.0.2.nupkg.sha512"

@@ -113,11 +113,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Project\\DotNetConsoleApp\\ConsoleAppIOC\\ConsoleAppIOC.csproj",
+      "projectUniqueName": "E:\\Project\\DotNetConsoleApp\\Code\\DotNetConsoleApp\\ConsoleAppIOC\\ConsoleAppIOC.csproj",
       "projectName": "ConsoleAppIOC",
-      "projectPath": "E:\\Project\\DotNetConsoleApp\\ConsoleAppIOC\\ConsoleAppIOC.csproj",
+      "projectPath": "E:\\Project\\DotNetConsoleApp\\Code\\DotNetConsoleApp\\ConsoleAppIOC\\ConsoleAppIOC.csproj",
       "packagesPath": "C:\\Users\\14269\\.nuget\\packages\\",
-      "outputPath": "E:\\Project\\DotNetConsoleApp\\ConsoleAppIOC\\obj\\",
+      "outputPath": "E:\\Project\\DotNetConsoleApp\\Code\\DotNetConsoleApp\\ConsoleAppIOC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

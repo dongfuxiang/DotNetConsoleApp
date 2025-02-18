@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Project\\DotNetConsoleApp\\ConsoleAppMailSender\\ConsoleAppMailSender.csproj": {}
+    "E:\\Project\\DotNetConsoleApp\\Code\\DotNetConsoleApp\\ConsoleAppMailSender\\ConsoleAppMailSender.csproj": {}
   },
   "projects": {
-    "E:\\Project\\DotNetConsoleApp\\ConfigService\\ConfigService.csproj": {
+    "E:\\Project\\DotNetConsoleApp\\Code\\DotNetConsoleApp\\ConfigService\\ConfigService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Project\\DotNetConsoleApp\\ConfigService\\ConfigService.csproj",
+        "projectUniqueName": "E:\\Project\\DotNetConsoleApp\\Code\\DotNetConsoleApp\\ConfigService\\ConfigService.csproj",
         "projectName": "ConfigService",
-        "projectPath": "E:\\Project\\DotNetConsoleApp\\ConfigService\\ConfigService.csproj",
+        "projectPath": "E:\\Project\\DotNetConsoleApp\\Code\\DotNetConsoleApp\\ConfigService\\ConfigService.csproj",
         "packagesPath": "C:\\Users\\14269\\.nuget\\packages\\",
-        "outputPath": "E:\\Project\\DotNetConsoleApp\\ConfigService\\obj\\",
+        "outputPath": "E:\\Project\\DotNetConsoleApp\\Code\\DotNetConsoleApp\\ConfigService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -48,6 +48,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -68,14 +74,14 @@
         }
       }
     },
-    "E:\\Project\\DotNetConsoleApp\\ConsoleAppMailSender\\ConsoleAppMailSender.csproj": {
+    "E:\\Project\\DotNetConsoleApp\\Code\\DotNetConsoleApp\\ConsoleAppMailSender\\ConsoleAppMailSender.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Project\\DotNetConsoleApp\\ConsoleAppMailSender\\ConsoleAppMailSender.csproj",
+        "projectUniqueName": "E:\\Project\\DotNetConsoleApp\\Code\\DotNetConsoleApp\\ConsoleAppMailSender\\ConsoleAppMailSender.csproj",
         "projectName": "ConsoleAppMailSender",
-        "projectPath": "E:\\Project\\DotNetConsoleApp\\ConsoleAppMailSender\\ConsoleAppMailSender.csproj",
+        "projectPath": "E:\\Project\\DotNetConsoleApp\\Code\\DotNetConsoleApp\\ConsoleAppMailSender\\ConsoleAppMailSender.csproj",
         "packagesPath": "C:\\Users\\14269\\.nuget\\packages\\",
-        "outputPath": "E:\\Project\\DotNetConsoleApp\\ConsoleAppMailSender\\obj\\",
+        "outputPath": "E:\\Project\\DotNetConsoleApp\\Code\\DotNetConsoleApp\\ConsoleAppMailSender\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -95,14 +101,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\Project\\DotNetConsoleApp\\ConfigService\\ConfigService.csproj": {
-                "projectPath": "E:\\Project\\DotNetConsoleApp\\ConfigService\\ConfigService.csproj"
+              "E:\\Project\\DotNetConsoleApp\\Code\\DotNetConsoleApp\\ConfigService\\ConfigService.csproj": {
+                "projectPath": "E:\\Project\\DotNetConsoleApp\\Code\\DotNetConsoleApp\\ConfigService\\ConfigService.csproj"
               },
-              "E:\\Project\\DotNetConsoleApp\\LogServices\\LogServices.csproj": {
-                "projectPath": "E:\\Project\\DotNetConsoleApp\\LogServices\\LogServices.csproj"
+              "E:\\Project\\DotNetConsoleApp\\Code\\DotNetConsoleApp\\LogServices\\LogServices.csproj": {
+                "projectPath": "E:\\Project\\DotNetConsoleApp\\Code\\DotNetConsoleApp\\LogServices\\LogServices.csproj"
               },
-              "E:\\Project\\DotNetConsoleApp\\MailServices\\MailServices.csproj": {
-                "projectPath": "E:\\Project\\DotNetConsoleApp\\MailServices\\MailServices.csproj"
+              "E:\\Project\\DotNetConsoleApp\\Code\\DotNetConsoleApp\\MailServices\\MailServices.csproj": {
+                "projectPath": "E:\\Project\\DotNetConsoleApp\\Code\\DotNetConsoleApp\\MailServices\\MailServices.csproj"
               }
             }
           }
@@ -148,14 +154,14 @@
         }
       }
     },
-    "E:\\Project\\DotNetConsoleApp\\LogServices\\LogServices.csproj": {
+    "E:\\Project\\DotNetConsoleApp\\Code\\DotNetConsoleApp\\LogServices\\LogServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Project\\DotNetConsoleApp\\LogServices\\LogServices.csproj",
+        "projectUniqueName": "E:\\Project\\DotNetConsoleApp\\Code\\DotNetConsoleApp\\LogServices\\LogServices.csproj",
         "projectName": "LogServices",
-        "projectPath": "E:\\Project\\DotNetConsoleApp\\LogServices\\LogServices.csproj",
+        "projectPath": "E:\\Project\\DotNetConsoleApp\\Code\\DotNetConsoleApp\\LogServices\\LogServices.csproj",
         "packagesPath": "C:\\Users\\14269\\.nuget\\packages\\",
-        "outputPath": "E:\\Project\\DotNetConsoleApp\\LogServices\\obj\\",
+        "outputPath": "E:\\Project\\DotNetConsoleApp\\Code\\DotNetConsoleApp\\LogServices\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -192,6 +198,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -212,14 +224,14 @@
         }
       }
     },
-    "E:\\Project\\DotNetConsoleApp\\MailServices\\MailServices.csproj": {
+    "E:\\Project\\DotNetConsoleApp\\Code\\DotNetConsoleApp\\MailServices\\MailServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Project\\DotNetConsoleApp\\MailServices\\MailServices.csproj",
+        "projectUniqueName": "E:\\Project\\DotNetConsoleApp\\Code\\DotNetConsoleApp\\MailServices\\MailServices.csproj",
         "projectName": "MailServices",
-        "projectPath": "E:\\Project\\DotNetConsoleApp\\MailServices\\MailServices.csproj",
+        "projectPath": "E:\\Project\\DotNetConsoleApp\\Code\\DotNetConsoleApp\\MailServices\\MailServices.csproj",
         "packagesPath": "C:\\Users\\14269\\.nuget\\packages\\",
-        "outputPath": "E:\\Project\\DotNetConsoleApp\\MailServices\\obj\\",
+        "outputPath": "E:\\Project\\DotNetConsoleApp\\Code\\DotNetConsoleApp\\MailServices\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -239,11 +251,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\Project\\DotNetConsoleApp\\ConfigService\\ConfigService.csproj": {
-                "projectPath": "E:\\Project\\DotNetConsoleApp\\ConfigService\\ConfigService.csproj"
+              "E:\\Project\\DotNetConsoleApp\\Code\\DotNetConsoleApp\\ConfigService\\ConfigService.csproj": {
+                "projectPath": "E:\\Project\\DotNetConsoleApp\\Code\\DotNetConsoleApp\\ConfigService\\ConfigService.csproj"
               },
-              "E:\\Project\\DotNetConsoleApp\\LogServices\\LogServices.csproj": {
-                "projectPath": "E:\\Project\\DotNetConsoleApp\\LogServices\\LogServices.csproj"
+              "E:\\Project\\DotNetConsoleApp\\Code\\DotNetConsoleApp\\LogServices\\LogServices.csproj": {
+                "projectPath": "E:\\Project\\DotNetConsoleApp\\Code\\DotNetConsoleApp\\LogServices\\LogServices.csproj"
               }
             }
           }

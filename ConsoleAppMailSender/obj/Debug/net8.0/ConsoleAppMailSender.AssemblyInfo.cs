@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ConsoleAppMailSender")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6e53ecdfb81dbe8a890ffd89159e6c9238a63631")]
 [assembly: System.Reflection.AssemblyProductAttribute("ConsoleAppMailSender")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ConsoleAppMailSender")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

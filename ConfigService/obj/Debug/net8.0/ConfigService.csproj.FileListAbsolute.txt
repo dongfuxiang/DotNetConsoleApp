@@ -9,3 +9,16 @@ E:\Project\DotNetConsoleApp\ConfigService\obj\Debug\net8.0\ConfigService.dll
 E:\Project\DotNetConsoleApp\ConfigService\obj\Debug\net8.0\refint\ConfigService.dll
 E:\Project\DotNetConsoleApp\ConfigService\obj\Debug\net8.0\ConfigService.pdb
 E:\Project\DotNetConsoleApp\ConfigService\obj\Debug\net8.0\ref\ConfigService.dll
+E:\Project\DotNetConsoleApp\Code\DotNetConsoleApp\ConfigService\bin\Debug\net8.0\ConfigService.deps.json
+E:\Project\DotNetConsoleApp\Code\DotNetConsoleApp\ConfigService\bin\Debug\net8.0\ConfigService.dll
+E:\Project\DotNetConsoleApp\Code\DotNetConsoleApp\ConfigService\bin\Debug\net8.0\ConfigService.pdb
+E:\Project\DotNetConsoleApp\Code\DotNetConsoleApp\ConfigService\obj\Debug\net8.0\ConfigService.GeneratedMSBuildEditorConfig.editorconfig
+E:\Project\DotNetConsoleApp\Code\DotNetConsoleApp\ConfigService\obj\Debug\net8.0\ConfigService.AssemblyInfoInputs.cache
+E:\Project\DotNetConsoleApp\Code\DotNetConsoleApp\ConfigService\obj\Debug\net8.0\ConfigService.AssemblyInfo.cs
+E:\Project\DotNetConsoleApp\Code\DotNetConsoleApp\ConfigService\obj\Debug\net8.0\ConfigService.csproj.CoreCompileInputs.cache
+E:\Project\DotNetConsoleApp\Code\DotNetConsoleApp\ConfigService\obj\Debug\net8.0\ConfigService.sourcelink.json
+E:\Project\DotNetConsoleApp\Code\DotNetConsoleApp\ConfigService\obj\Debug\net8.0\ConfigService.dll
+E:\Project\DotNetConsoleApp\Code\DotNetConsoleApp\ConfigService\obj\Debug\net8.0\refint\ConfigService.dll
+E:\Project\DotNetConsoleApp\Code\DotNetConsoleApp\ConfigService\obj\Debug\net8.0\ConfigService.pdb
+E:\Project\DotNetConsoleApp\Code\DotNetConsoleApp\ConfigService\obj\Debug\net8.0\ref\ConfigService.dll
+E:\Project\DotNetConsoleApp\Code\DotNetConsoleApp\ConfigService\obj\Debug\net8.0\ConfigService.csproj.AssemblyReference.cache

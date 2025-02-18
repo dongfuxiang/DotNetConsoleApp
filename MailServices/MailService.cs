@@ -11,10 +11,11 @@ namespace MailServices
    public class MailService : IMailService
     {
         private readonly ILogProvider log;
-        private readonly IConfigService config;
-
+        //private readonly IConfigService config;
+        private readonly IConfigReader config;
         //IOC容器注入
-        public MailService(ILogProvider log, IConfigService config)
+        //public MailService(ILogProvider log, IConfigService config)
+        public MailService(ILogProvider log, IConfigReader config)
         {
             this.log = log;
             this.config = config;
