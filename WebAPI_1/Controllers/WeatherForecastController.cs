@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using System;
 
 namespace WebAPI_1.Controllers
 {
@@ -19,6 +20,7 @@ namespace WebAPI_1.Controllers
         }
 
         [HttpGet(Name = "GetWeatherForecast")]//表示当向[Route("[controller]")]发出get请求时，由此方法处理
+        //[HttpGet(Name = "GetWeatherForecast")] 属性为方法指定了路由名称 "GetWeatherForecast" 后，可以在控制器的其他方法中使用 Url.Action 方法根据该路由名称生成 URL。
         public IEnumerable<WeatherForecast> Get()
         {
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
