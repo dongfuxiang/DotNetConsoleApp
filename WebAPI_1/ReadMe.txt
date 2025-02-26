@@ -49,3 +49,21 @@ REST落地建议：
 1.控制器上[Route("[controller]/[action]")];
 2.强制要求控制器中不同的操作用不同的方法名；
 3.把[HttpGet],[HttpPost],[HttpDelete],[HttpPut]等添加到对应的操作方法上；
+
+Action方法的异步
+1.Action方法既可以同步也可以异步；
+2.异步Action方法名字一般不需以Async结尾，因为Action方法不会认为去调用；
+3.Web API中Action方法的返回值如果是普通数据类型，那么数据就会被默认序列化为Json格式，如返回Person类；
+4.WebAPI中的Action方法的返回值同样支持IActionResult类型（MVC），返回值为int等不包含消息类型，因此Swaggar
+	等无法推断出消息类型，所以推荐使用ActionResult<T>，它支持类型转换，从而用起来更简单。
+
+
+捕捉URL占位符
+1.在[HttpGet]、[HttpPost]等中使用占位符，比如{schoolName},捕捉路径中的内容，从而供Action方法的参数使用
+	/Students/GetAll/school/MIT/class/A001
+	[HttpGet("school/{schoolName}/class{classNo}")]
+2.捕捉的值会被自动赋值给Action中的同名参数，如果名字不一致，可用[FromRoute(Name="名字")]
+
+捕捉QueryString的值
+1.使用[FromQuery]来获取QueryString中的值，如果名字一致，只要为参数添加[FromQuery]即可；如果名字不一致，[FromQuery(Name=名字)].
+2.QueryString和Route可以混用；

@@ -20,7 +20,9 @@ namespace WebAPI_1.Controllers
         {
             return dicPerson.Values;
         }
-        [HttpGet("{id}")]
+
+        //[HttpGet]//URL为：api/[controller]?id=1
+        [HttpGet("{id}")]//URL为：api/[controller]/{id}
         public Person GetPerson(int id)
         {
             return dicPerson.Where(p => p.Key == id).FirstOrDefault().Value;
