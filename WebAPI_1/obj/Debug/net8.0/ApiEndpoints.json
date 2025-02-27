@@ -199,6 +199,151 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "WebAPI_1.Controllers.Test2Controller",
+    "Method": "GetResult1",
+    "RelativePath": "api/Test2/GetResult1",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPI_1.Controllers.Test2Controller",
+    "Method": "GetStudents",
+    "RelativePath": "api/Test2/GetStudents/students/school/{schoolName}/class/{classNo}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "schoolName",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "classNo",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebAPI_1.Models.Person",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPI_1.Controllers.Test2Controller",
+    "Method": "Multi",
+    "RelativePath": "api/Test2/Multi/{i1}/{i2}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "i1",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "i2",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPI_1.Controllers.Test2Controller",
+    "Method": "Save",
+    "RelativePath": "api/Test2/Save",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "x",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "y",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPI_1.Controllers.Test2Controller",
+    "Method": "Save2",
+    "RelativePath": "api/Test2/Save2",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "person",
+        "Type": "WebAPI_1.Models.Person",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "WebAPI_1.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

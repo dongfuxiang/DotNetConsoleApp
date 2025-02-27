@@ -54,7 +54,7 @@ namespace WebAPI_1.Controllers
             }
         }
 
-        [HttpGet("{i1}/{i2}")]//URL：api/Test2/Multi/i1/i2 ,这样就可以不把参数放在QueryString里面，更符合Restful
+        [HttpGet("{i1}/{i2}")]//URL：api/Test2/Multi/i1/i2 ,这样就可以不把参数放在QueryString里面，更符合Restful，参数从URL中获取
         public ActionResult<int> Multi(int i1, int i2)
         {
             return i1 * i2;
@@ -68,9 +68,26 @@ namespace WebAPI_1.Controllers
         }
 
         [HttpPost]//这种不用URL占位符代表函数参数的方式（默认方式），就是参数在QueryString中，api/Test2/Save?x=1&y=2
-        public ActionResult<int> Save(int x,int y)
+        public ActionResult<int> Save(int x, int y)
         {
             return x + y;
+        }
+
+        [HttpPost]//是否当参数为非基本数据类型时，不会显示在QueryString中？此时的URL为，api/Test2/Save2，参数存在于请求报文体中
+        public ActionResult<string> Save2(Person person)
+        {
+            return $"{person.Name}：{person.Age}";
+        }
+        [HttpPost("{person}")]//如果把类放在URL占位符中，那URL为：api/Test2/Save2/lisi，person的名称为URL的一部分
+        public ActionResult<string> Save3(Person person)
+        {
+            return $"{person.Name}：{person.Age}";
+        }
+
+        [HttpPut("{id}")]//把从URL获取参数和从请求报文体获取数据混用
+        public ActionResult<string> Update(int id,Person person)
+        {
+            return $"id:{id} Name：{person.Name} 更新成功";
         }
     }
 }

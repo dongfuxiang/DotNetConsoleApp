@@ -67,3 +67,14 @@ Action方法的异步
 捕捉QueryString的值
 1.使用[FromQuery]来获取QueryString中的值，如果名字一致，只要为参数添加[FromQuery]即可；如果名字不一致，[FromQuery(Name=名字)].
 2.QueryString和Route可以混用；
+
+JSON报文体
+1.WebAPI的开发模式下，Json格式的请求体是主流；
+2.只要声明一个模型类和JSON请求的格式一致即可；
+3.也是可以把从URL获取参数、从请求报文体获取数据等混合使用。
+	   [HttpPut("{id}")]//把从URL获取参数和从请求报文体获取数据混用
+        public ActionResult<string> Update(int id,Person person)
+        {
+            return $"id:{id} Name：{person.Name} 更新成功";
+        }
+4.一定要设定请求头中的Content-Type为application/json，而且数据必须是合法的json格式。
